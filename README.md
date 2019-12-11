@@ -1,8 +1,8 @@
-Portfolio 
+# Portfolio 
 Creating my portfolio in react.
 
 
-Technologies
+# Technologies
 React.js
 React hooks
 React router

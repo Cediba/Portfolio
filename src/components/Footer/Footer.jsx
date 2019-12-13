@@ -1,12 +1,13 @@
 import React from 'react';
+import './Footer.scss';
 
-const Contact = () => {
+const Footer = () => {
     return (
       <footer>
         <div>
-        Contact component
+          Footer component
         </div>
       </footer>
     )
 }
-export default Contact;
+export default Footer;

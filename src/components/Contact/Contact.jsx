@@ -1,12 +1,11 @@
 import React from 'react';
+import './Contact.scss';
 
 const Contact = () => {
     return (
-      <footer>
-        <div>
-        Contact component
+        <div className='contact-wrapper'>
+            Contact component
         </div>
-      </footer>
     )
 }
 export default Contact;

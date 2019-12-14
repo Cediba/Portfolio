@@ -1,12 +1,11 @@
 import React from 'react';
+import './Certificates.scss';
 
 const Certificates = () => {
     return (
-      <footer>
-        <div>
-        Certificates component
+        <div className='cs-wrapper'>
+            Certificates component
         </div>
-      </footer>
     )
 }
 export default Certificates;

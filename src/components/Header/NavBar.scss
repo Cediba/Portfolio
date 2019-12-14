@@ -5,11 +5,11 @@ header {
     height: 50px;
     color: white;
   }
-  #headerButtons {
+  .nav-items {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  .navButton {
+  .nav-item {
     float: right;
   }

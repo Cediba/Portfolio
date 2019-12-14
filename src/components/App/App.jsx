@@ -1,23 +1,22 @@
 import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Footer from "../Footer/Footer";
 import Header from '../Header/NavBar';
 import Home from '../Home/Home';
-// import Contact from "../Contact/Contact"
 import './App.css';
 import "./reset.css";
 import NotFound from "../NotFound/NotFound";
+import Contact from '../Contact/Contact';
+import Certificates from '../Certificates/Certificates';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <>
       <Header/>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route component={NotFound} />
-      </Switch>
+      <Home/>
+      <Contact/>
+      <Certificates/>
       <Footer/>
-    </BrowserRouter>
+    </>
   );
 };
 

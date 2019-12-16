@@ -1,39 +1,67 @@
 
 
 .wrapper {
-    background: linear-gradient(to right, #754EF9, #754EF9 40%, white 40%, white 0%);
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px; 
+    background: linear-gradient(to right, #754EF9, #754EF9 35%, white 35%, white 0%);
     height: 100vh;
     border: 9px solid #754EF9;
 
     & > .logo { 
-        grid-area: 1 / 1 / 2 / 2;
+        position: absolute;
+        top: 5%;
+        left: 10%;
 
         .img {
             position: absolute;
-            top: 12%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
             width:100 ;
             height:70;
+            
         }
 
     }
-    .pers-img { 
-        grid-area: 5 / 1 / 6 / 2; 
+    .pers-img {  
+            position: absolute;
+            top: 50%;
+            left: 29%;
+            transform: translate(-50%, -50%);
+            border: 50px solid white;
+            border-radius: 50%;
+            background-color: #754EF9;
+            box-shadow: 5px 1px 11px 0px #754EF9;
+
+        .image-circle{
+            border-radius: 50%;
+            border: solid 15px #754EF9;
+        }
     }
+
+
     .pers-slogan { 
-        grid-area: 2 / 1 / 5 / 4; 
+        position: absolute;
+        bottom: 7%;
+        left: 10%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        font-size: 1.3em;
     }
-    .pers-name { 
-        grid-area: 2 / 3 / 5 / 6;
+}
+.pers-name {
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    
+    #First-name{
+        color: #754EF9;
+    }
+    
+    #subtitle{
         display: flex;
         justify-content: center;
-        align-items: center;
+        font-size: 1.3em;
+        font-weight: 400;
     }
-    .social-media { 
-        grid-area: 2 / 5 / 5 / 6; 
-    } 
 }
+

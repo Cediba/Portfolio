@@ -1,0 +1,39 @@
+
+
+.wrapper {
+    background: linear-gradient(to right, #754EF9, #754EF9 40%, white 40%, white 0%);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    height: 100vh;
+    border: 9px solid #754EF9;
+
+    & > .logo { 
+        grid-area: 1 / 1 / 2 / 2;
+
+        .img {
+            position: absolute;
+            top: 12%;
+            width:100 ;
+            height:70;
+        }
+
+    }
+    .pers-img { 
+        grid-area: 5 / 1 / 6 / 2; 
+    }
+    .pers-slogan { 
+        grid-area: 2 / 1 / 5 / 4; 
+    }
+    .pers-name { 
+        grid-area: 2 / 3 / 5 / 6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-media { 
+        grid-area: 2 / 5 / 5 / 6; 
+    } 
+}

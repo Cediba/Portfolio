@@ -12,8 +12,8 @@ const Home = () => {
   return (
     <div className="home">
       <Top/>
-      <Contact/>
       <MyStory/>
+      <Contact/>
       <Portfolio/>
       <Skills/>
       <Certificates/>

@@ -1,15 +1,39 @@
 header {
-    display: block;
-    background-color: black;
-    width: 100%;
-    height: 50px;
+    // width: 100%;
+    // height: 50px;
     color: white;
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 36%;
   }
   .nav-items {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #F25D3C;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+
+    .nav-item {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      padding: 10px 0;
+      color: white;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      float: left;
+      margin: 0 2vw;
+      font-size: 16px;
+      text-transform: uppercase;
+
+      :hover {
+        color: rgb(48, 108, 160);
+        cursor: pointer;
+      }
+    }
+    
   }
-  .nav-item {
-    float: right;
-  }
+
+  

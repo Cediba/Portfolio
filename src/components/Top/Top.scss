@@ -1,9 +1,9 @@
 
 
 .wrapper {
-    background: linear-gradient(to right, #754EF9, #754EF9 35%, white 35%, white 0%);
+    background: linear-gradient(to right, #F25D3C, #F25D3C 35%, white 35%, white 0%);
     height: 100vh;
-    border: 9px solid #754EF9;
+    border: 9px solid #F25D3C;
 
     & > .logo { 
         position: absolute;
@@ -28,12 +28,12 @@
             transform: translate(-50%, -50%);
             border: 50px solid white;
             border-radius: 50%;
-            background-color: #754EF9;
-            box-shadow: 5px 1px 11px 0px #754EF9;
+            background-color: #F25D3C;
+            box-shadow: 5px 1px 11px 0px #F25D3C;
 
         .image-circle{
             border-radius: 50%;
-            border: solid 15px #754EF9;
+            border: solid 15px #F25D3C;
         }
     }
 
@@ -54,7 +54,7 @@
     transform: translate(-50%, -50%);
     
     #First-name{
-        color: #754EF9;
+        color: #F25D3C;
     }
     
     #subtitle{
@@ -64,4 +64,21 @@
         font-weight: 400;
     }
 }
+.social-media-bar {
+    position: absolute;
+    top: 50%;
+    left: 88%;
+    transform: translate(-50%, -50%);
 
+   
+    .social-media-bar-icon {
+        text-orientation: sideways;
+        writing-mode: vertical-rl;
+        display: flex;
+
+        :after {
+            padding: 50px;
+        }
+    
+    }
+}

@@ -13,11 +13,8 @@ import Certificates from '../Certificates/Certificates';
 const App = () => {
   return (
     <>
-      {/* <Header/> */}
+      <Header/>
       <Home/>
-      <Contact/>
-      <Certificates/>
-      <Footer/>
     </>
   );
 };

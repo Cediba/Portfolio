@@ -2,6 +2,7 @@ import React from 'react';
 import './Top.scss';
 import Logo from '../../assets/images/logo1.png';
 import persImg from '../../assets/images/pers-img.jpg';
+import SocialButtonsPage from '../Social-media/SocialButtonsPage';
 
 const Top = () => {
     return (
@@ -12,7 +13,7 @@ const Top = () => {
                 </div>
 
             <div className='pers-slogan'>
-                Be yourself
+                „Be yourself“
             </div>
 
             <div className='pers-img'>
@@ -24,7 +25,12 @@ const Top = () => {
                     <span id="subtitle">Webdeveloper</span>
             </div>
 
-            <div className='social-media'></div>
+            <div className='social-media-bar'>
+                <span className="social-media-bar-icon">
+                    Follow Me On:
+                    <SocialButtonsPage/>
+                </span>
+            </div>
 
 
         </div>

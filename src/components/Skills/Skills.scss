@@ -1,0 +1,18 @@
+.Skill-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    border-right: 7px solid #F25D3C;
+    height: 80vh;
+    }
+    
+    .div11 { grid-area: 2 / 2 / 3 / 3; }
+    .div22 { grid-area: 2 / 3 / 3 / 4; }
+    .div33 { grid-area: 3 / 2 / 4 / 3; }
+    .div44 { grid-area: 3 / 3 / 4 / 4; }
+    .div55 { grid-area: 4 / 2 / 5 / 3; }
+    .div66 { grid-area: 4 / 3 / 5 / 4; }
+    .div77 { grid-area: 5 / 2 / 6 / 3; }
+    .div88 { grid-area: 5 / 3 / 6 / 4; }

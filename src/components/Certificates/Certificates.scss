@@ -1,3 +1,14 @@
-.cs-wrapper {
-    height: 500px;
-}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+    height: 70vh;
+    border-right: 7px solid #F25D3C;
+    border-bottom: 7px solid #F25D3C;
+    }
+    
+    .div1 { grid-area: 2 / 2 / 3 / 3; }
+    .div2 { grid-area: 2 / 3 / 3 / 4; }
+    .div3 { grid-area: 2 / 4 / 3 / 5; }

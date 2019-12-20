@@ -8,7 +8,26 @@
     border-left: 7px solid #F25D3C;
     }
     
-    .div111 { grid-area: 2 / 2 / 3 / 3; }
-    .div222 { grid-area: 2 / 3 / 3 / 4; }
-    .div333 { grid-area: 2 / 4 / 3 / 5; }
-    .div444 { grid-area: 3 / 2 / 4 / 5; }
+    .div111 {
+         grid-area: 2 / 2 / 3 / 3; 
+         display: flex;            /* new */
+         align-items: center;      /* new */
+         justify-content: center;
+        }
+    .div222 {
+         grid-area: 2 / 3 / 3 / 4;
+         display: flex;            /* new */
+         align-items: center;      /* new */
+         justify-content: center;
+         }
+    .div333 {
+         grid-area: 2 / 4 / 3 / 5; 
+         display: flex;            /* new */
+         align-items: center;      /* new */
+         justify-content: center;
+        }
+    .div444 { grid-area: 3 / 2 / 4 / 5;
+        display: flex;            /* new */
+        align-items: center;      /* new */
+        justify-content: center;
+     }

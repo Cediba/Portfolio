@@ -1,4 +1,4 @@
-.parent {
+.Certificate-wrapper {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -9,6 +9,21 @@
     border-bottom: 7px solid #F25D3C;
     }
     
-    .div1 { grid-area: 2 / 2 / 3 / 3; }
-    .div2 { grid-area: 2 / 3 / 3 / 4; }
-    .div3 { grid-area: 2 / 4 / 3 / 5; }
+    .certificate1 { 
+        grid-area: 2 / 2 / 3 / 3; 
+        display: flex;            /* new */
+        align-items: center;      /* new */
+        justify-content: center;
+    }
+    .certificate2 { 
+        grid-area: 2 / 3 / 3 / 4;
+        display: flex;            /* new */
+        align-items: center;      /* new */
+        justify-content: center;
+    }
+    .certificate3 { 
+        grid-area: 2 / 4 / 3 / 5;
+        display: flex;            /* new */
+        align-items: center;      /* new */
+        justify-content: center;
+    }

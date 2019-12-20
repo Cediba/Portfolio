@@ -7,8 +7,8 @@ const Contact = () => {
         <>
         <Trennlinie/>
         <div className='contact-wrapper'>
+            <div className='contact-title'><h2>Contact</h2></div>
             <div className="contact-container">
-                <div className='contact-title'><h2>Contact</h2></div>
                 Contact component
             </div>
         </div>

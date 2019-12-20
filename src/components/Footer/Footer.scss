@@ -1,7 +1,22 @@
 footer {
-    display: block;
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    color: white;
+    height: 20vh;
+    background-color: #F25D3C;
+    color: black;
+    display: flex;
+    align-items: center;
   }
+
+
+.footer-person-name {
+  position: relative;
+  top: 40%;
+  left: 20%;
+  width: 200px;
+}
+
+.footer-socialMedia {
+  position: relative;
+  top: 10%;
+  left: 60%;
+  width: 200px;
+}

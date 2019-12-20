@@ -7,9 +7,17 @@ const Certificates = () => {
         <>
         <Trennlinie/>
         <div class="Certificate-wrapper">
-            <div class="certificate1">Metal Work</div>
-            <div class="certificate2">EnglishMaster</div>
-            <div class="certificate3">Web Developer</div>
+            <div className='Certificate-title'><h2>Certificates</h2></div>
+            <div class="certificate1">
+                <h3>Metal Work</h3> 
+                {/* <button class="myStory-btn" type="button">Show more</button> */}
+            </div>
+            <div class="certificate2">
+                <h3>Cambridge Diploma</h3>
+                </div>
+            <div class="certificate3">
+                <h3>Web Developer</h3>
+                </div>
         </div>
         </>
     );

@@ -2,3 +2,9 @@
     height: 50vh;
    border-left: 7px solid #F25D3C;
 }
+.contact-title {
+    display: flex;            /* new */
+    align-items: center;      /* new */
+    justify-content: center;
+    padding-top: 50px;
+}

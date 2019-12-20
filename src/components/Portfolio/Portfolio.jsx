@@ -4,10 +4,11 @@ import './Portfolio.scss';
 const Portfolio = () => {
     return (
         <div class="portfolio-wrapper">
-            <div class="div111">Portfolio</div>
-            <div class="div222">Portfolio</div>
-            <div class="div333">Portfolio</div>
-            <div class="div444">Portfolio</div>
+            <div className='portfolio-title'><h2>Portfolio</h2></div>
+            <div class="project1">Project1</div>
+            <div class="project2">Project2</div>
+            <div class="project3">Project3</div>
+            <div class="gitHub">GithubLink</div>
         </div>
     )
 }

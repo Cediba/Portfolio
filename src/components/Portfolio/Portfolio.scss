@@ -7,26 +7,33 @@
     height: 50vh;
     border-left: 7px solid #F25D3C;
     }
+
+    .portfolio-title {
+        display: flex;            /* new */
+        align-items: center;      /* new */
+        justify-content: center;
+        grid-area:1 / 3 / 2 / 4; 
+    }    
     
-    .div111 {
+    .project1 {
          grid-area: 2 / 2 / 3 / 3; 
          display: flex;            /* new */
          align-items: center;      /* new */
          justify-content: center;
         }
-    .div222 {
+    .project2 {
          grid-area: 2 / 3 / 3 / 4;
          display: flex;            /* new */
          align-items: center;      /* new */
          justify-content: center;
          }
-    .div333 {
+    .project3 {
          grid-area: 2 / 4 / 3 / 5; 
          display: flex;            /* new */
          align-items: center;      /* new */
          justify-content: center;
         }
-    .div444 { grid-area: 3 / 2 / 4 / 5;
+    .gitHub { grid-area: 3 / 2 / 4 / 5;
         display: flex;            /* new */
         align-items: center;      /* new */
         justify-content: center;
